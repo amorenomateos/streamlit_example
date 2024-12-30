@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Cargar el modelo previamente entrenado
-with open("c:\\Users\\alfon\\OneDrive\\Escritorio\\ayudas\\streamlit\modelo.pkl", "rb") as file:
+with open("modelo.pkl", "rb") as file:
     modelo = pickle.load(file)
 
 # Título de la aplicación
